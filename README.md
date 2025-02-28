@@ -34,22 +34,16 @@ source venv/bin/activate  # On Windows use "venv\Scripts\activate"`
 ## API Endpoints
 ### Get all tasks
 
-* Endpoint: `GET/todos`
-* Response:```json
-[
-    {
-        "id": 1,
-        "task": "build an API",
-        "description": "using flask",
-        "done": false
-    },
-    {
-        "id": 2,
-        "task": "test the API",
-        "description": "ensure it works correctly",
-        "done": false
-    }
-]
+**Endpoint:** `POST /api/example`
+
+**Request Body:**
+```json
+{
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "age": 30
+}
+
 
 ### Get a task by ID
 
