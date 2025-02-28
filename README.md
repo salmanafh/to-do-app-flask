@@ -49,47 +49,57 @@ source venv/bin/activate  # On Windows use "venv\Scripts\activate"`
 
 * Endpoint: `GET/todos/<id>`
 * Response:
-`{
+```
+{
   "id": 1,
   "task": "build an API",
   "description": "using flask",
   "done": false
-}`
+}
+```
 
 ### Create a new task
 
 * Endpoint: `POST /todos`
 * Request Body:
-`{
+```
+{
   "task": "New Task",
   "description": "Task description"
-}`
+}
+```
 
 * Response:
-`{
+```
+{
   "id": 7,
   "task": "New Task",
   "description": "Task description",
   "done": false
-}`
+}
+```
 
 ### Update a task
 
 * Endpoint: `PUT /todos/<id>`
 * Request Body:
-`{
+```
+{
   "task": "Updated Task",
   "description": "Updated description",
   "done": true
-}`
+}
+```
 
 * Response:
-`{
+```
+{
   "id": 1,
   "task": "Updated Task",
   "description": "Updated description",
   "done": true
-}`
+}
+```
 
 ### Delete a task
 
