@@ -38,11 +38,15 @@ source venv/bin/activate  # On Windows use "venv\Scripts\activate"`
 
 **Request Body:**
 ```
-{
-    "name": "John Doe",
-    "email": "johndoe@example.com",
-    "age": 30
-}
+[
+  {
+    "id": 1,
+    "task": "build an API",
+    "description": "using flask",
+    "done": false
+  }
+]
+...
 ```
 
 ### Get a task by ID
