@@ -37,13 +37,13 @@ source venv/bin/activate  # On Windows use "venv\Scripts\activate"`
 **Endpoint:** `POST /api/example`
 
 **Request Body:**
-```json
+```
 {
     "name": "John Doe",
     "email": "johndoe@example.com",
     "age": 30
 }
-
+```
 
 ### Get a task by ID
 
